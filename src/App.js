@@ -25,18 +25,16 @@ class App extends Component {
         };
     }
 
-    handleClick = (event) => {
-        event.preventDefault();
-        console.log(event.target);
-        console.log(this.state);
-        if (!this.state.clicked) {
-            this.setState({clicked: true});
-        } else if (this.state.clicked) {
-            console.log("The game needs to restart!");
-        } else {
-            console.log("There is a problem here!");
-        };
-    };
+    //Called within the handleClick function when an image is newly clicked
+    updateScore = () => {
+        //Takes the previous score from state and updates it by one
+        this.setState(prevState => { return { score: prevState.score + 1 }});
+    }
+    
+    resetGame = () => {
+        this.setState({ score: 0, images });
+        
+    }
 
     render() {
         return (
@@ -50,8 +48,9 @@ class App extends Component {
                             id={image.id}
                             image={image.source}
                             name={image.name}
-                            clicked={image.clicked}
                             handleClick={this.handleClick}
+                            updateScore={this.updateScore}
+                            resetGame={this.resetGame}
                         />
                     ))}
                 </Wrapper>
