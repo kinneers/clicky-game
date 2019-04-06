@@ -2,73 +2,73 @@
     {
         "id": 1,
         "name": "beach",
-        "source": "./components/images/png/beach.png",
+        "source": "./images/png/beach.png",
         "clicked": false
     },
     {
         "id": 2,
         "name": "bridge",
-        "source": "./components/images/png/bridge.png",
+        "source": "./images/png/bridge.png",
         "clicked": false
     },
     {
         "id": 3,
         "name": "cape",
-        "source": "./components/images/png/cape.png",
+        "source": "./images/png/cape.png",
         "clicked": false
     },
     {
         "id": 4,
         "name": "castle",
-        "source": "./components/images/png/castle.png",
+        "source": "./images/png/castle.png",
         "clicked": false
     },
     {
         "id": 5,
         "name": "cityscape",
-        "source": "./components/images/png/cityscape.png",
+        "source": "./images/png/cityscape.png",
         "clicked": false
     },
     {
         "id": 6,
         "name": "desert",
-        "source": "./components/images/png/desert-1.png",
+        "source": "./images/png/desert.png",
         "clicked": false
     },
     {
         "id": 7,
-        "name": "fields",
-        "source": "./components/images/png/fields-1.png",
+        "name": "river",
+        "source": "./images/png/river.png",
         "clicked": false
     },
     {
         "id": 8,
         "name": "forest",
-        "source": "./components/images/png/forest.png",
+        "source": "./images/png/forest.png",
         "clicked": false
     },
     {
         "id": 9,
-        "name": "hills",
-        "source": "./components/images/png/hills.png",
+        "name": "waterfall",
+        "source": "./images/png/waterfall.png",
         "clicked": false
     },
     {
         "id": 10,
         "name": "home",
-        "source": "./components/images/png/home.png",
+        "source": "./images/png/home.png",
         "clicked": false
     },
     {
         "id": 11,
         "name": "iceberg",
-        "source": "./components/images/png/iceberg.png",
+        "source": "./images/png/iceberg.png",
         "clicked": false
     },
     {
         "id": 12,
         "name": "island",
-        "source": "./components/images/png/island.png",
+        "source": "./images/png/island.png",
         "clicked": false
     }
 ]
