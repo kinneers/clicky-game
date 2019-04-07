@@ -9,7 +9,6 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import NavScore from "./components/NavScore";
 import ImageCard from "./components/ImageCard";
-import Footer from "./components/Footer";
 import images from "./images.json";
 
 class App extends Component {
@@ -95,7 +94,6 @@ class App extends Component {
                         />
                     ))}
                 </Wrapper>
-                <Footer></Footer>
             </div>
         );
     }
