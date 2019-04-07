@@ -3,7 +3,7 @@ import "./style.css";
 
 function NavScore(props) {
     return (
-        <ul className="nav nav-pills nav-fill">
+        <ul className="nav fixed-top nav-pills nav-fill">
             <li className="nav-item">
                 <a className="nav-link active" href="./index.html"><h2>Clicky Game!</h2></a>
             </li>
