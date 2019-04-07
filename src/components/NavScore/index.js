@@ -8,6 +8,7 @@ function NavScore(props) {
                 <a className="nav-link active" href="./index.html"><h2>Clicky Game!</h2></a>
             </li>
             <li className="nav-item">
+                <h3>Click any image to begin!</h3>
             </li>
             <li className="nav-item">
                 <h2 className="score">Current Score: {props.score}/12</h2>
